@@ -56,3 +56,19 @@ This project is a learning exercise, and I've aimed to follow the book's guidanc
     ```
 
     This will start the interpreter in interactive mode, allowing you to enter Lox code directly.
+
+## Example Lox Code
+
+```lox
+// Example Lox code
+var a = 10;
+var b = 20;
+
+print a + b;
+
+fun add(x, y) {
+  return x + y;
+}
+
+print add(a, b);
+
