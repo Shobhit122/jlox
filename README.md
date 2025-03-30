@@ -1,4 +1,4 @@
-# My jlox Interpreter 
+# My jlox Interpreter
 
 This repository contains my personal implementation of the jlox interpreter, as described in Robert Nystrom's excellent book, "Crafting Interpreters." This project is built using Maven for dependency management and project structure.
 
@@ -54,3 +54,21 @@ This project is a learning exercise, and I've aimed to follow the book's guidanc
     ```bash
     java -cp target/jlox-tree-walk-interpreter-1.0-SNAPSHOT.jar com.shobhit.java.lox.Lox
     ```
+
+    This will start the interpreter in interactive mode, allowing you to enter Lox code directly.
+
+## Example Lox Code
+
+```lox
+// Example Lox code
+var a = 10;
+var b = 20;
+
+print a + b;
+
+fun add(x, y) {
+  return x + y;
+}
+
+print add(a, b);
+
